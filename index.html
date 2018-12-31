@@ -1,0 +1,498 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+  <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+  <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+  <title>Tuition.io - [Plain HTML]</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+
+
+
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+
+
+
+  <style>
+
+
+      html,
+      body {
+          margin: 0 auto !important;
+          padding: 0 !important;
+          height: 100% !important;
+          width: 100% !important;
+      }
+
+
+      * {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+      }
+
+
+      div[style*="margin: 16px 0"] {
+          margin:0 !important;
+      }
+
+
+      table,
+      td {
+          mso-table-lspace: 0pt !important;
+          mso-table-rspace: 0pt !important;
+      }
+
+
+      table {
+          border-spacing: 0 !important;
+          border-collapse: collapse !important;
+          table-layout: fixed !important;
+          margin: 0 auto !important;
+      }
+      table table table {
+          table-layout: auto;
+      }
+
+
+      img {
+          -ms-interpolation-mode:bicubic;
+      }
+
+
+      *[x-apple-data-detectors],
+      .x-gmail-data-detectors,
+      .x-gmail-data-detectors *,
+      .aBn {
+          border-bottom: 0 !important;
+          cursor: default !important;
+          color: inherit !important;
+          text-decoration: none !important;
+          font-size: inherit !important;
+          font-family: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+      }
+
+
+      .a6S {
+          display: none !important;
+          opacity: 0.01 !important;
+      }
+
+      img.g-img + div {
+          display:none !important;
+         }
+
+
+      .button-link {
+          text-decoration: none !important;
+      }
+
+
+      @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6+ */
+          .email-container {
+              min-width: 375px !important;
+          }
+      }
+
+  </style>
+
+
+  <style>
+
+
+      .button-td,
+      .button-a {
+          transition: all 100ms ease-in;
+      }
+      .button-td:hover,
+      .button-a:hover {
+          background: #555555 !important;
+          border-color: #555555 !important;
+      }
+
+      /* Media Queries */
+      @media screen and (max-width: 480px) {
+
+
+          .fluid {
+              width: 100% !important;
+              max-width: 100% !important;
+              height: auto !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+          }
+
+
+          .stack-column,
+          .stack-column-center {
+              display: block !important;
+              width: 100% !important;
+              max-width: 100% !important;
+              direction: ltr !important;
+          }
+
+          .stack-column-center {
+              text-align: center !important;
+          }
+
+
+          .center-on-narrow {
+              text-align: center !important;
+              display: block !important;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              float: none !important;
+          }
+          table.center-on-narrow {
+              display: inline-block !important;
+          }
+
+
+          .email-container p {
+              font-size: 10px !important;
+              line-height: 12px !important;
+          }
+          .email-container h1 {
+              font-size: 10px !important;
+              line-height: 15px !important;
+              text-align: left !important;
+          }
+          .email-container h3 {
+              font-size: 12px !important;
+
+          }
+          .email-container #logo {
+
+          width:200px !important;
+          height:100px!important;
+
+          }
+
+
+      }
+
+  </style>
+
+
+
+</head>
+<body width="100%" bgcolor="white" style="margin: 0; mso-line-height-rule: exactly;">
+  <center style="width: 100%; background: #F1F1F1; text-align: left;">
+
+
+      <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Montserrat';">
+          (Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX for anyone using a screenreader or voice-command apps like Siri to dictate the contents of an email. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+      </div>
+
+      <div style="max-width: 680px; margin: auto;" class="email-container">
+
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container">
+
+              <!-- HEADER : BEGIN -->
+              <tr>
+                  <td style="background:white">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                              <td style="background: white;padding: 30px 40px 30px 40px; text-align: center;" align="center" >
+                                  <img id="logo" src="https://s5.postimg.cc/v25adl9n7/tuition_google.png" width="120" height="250" alt="alt_text" border="0" style="height: auto; font-family: 'Montserrat'; font-size: 12px; line-height: 20px; color: #FFFF;">
+                              </td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <!-- HEADER : END -->
+
+              <!-- HERO : BEGIN -->
+              <tr>
+                  <!-- Bulletproof Background Images c/o https://backgrounds.cm -->
+                  <td background="background.png" bgcolor="#5D219E" align="center" valign="top" style="text-align: center; background-position: center center !important; background-size: cover !important;">
+
+                      <div>
+
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:500px; margin: auto;">
+
+                              <tr>
+                                  <td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+                              </tr>
+
+                              <tr>
+                                <td align="center" valign="middle">
+
+                                <table>
+                                   <tr>
+                                       <td valign="top" style="text-align: center; padding: 60px 0 0px 10px;">
+
+                                           <h1 style="margin: 0; font-family: 'Montserrat'; font-size: 12px; line-height:20px; color: #ffffff; font-weight: bold;">Tuition.io is helping the nation's best companies free their employees from student loan debt.</h1>
+
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td valign="top" style="text-align: center; padding: 10px 20px 12px 20px; font-family: sans-serif; font-size: 12px; line-height: 20px; color: #757575;">
+                                           <p style="margin: 0;"></p>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                       <td valign="top" align="center" style="text-align: center; padding: 12px 0px 60px 0px;">
+
+                                           <!-- Button : BEGIN -->
+                                           <center>
+                                           <table role="presentation" align="center" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="text-align: center;">
+                                               <tr>
+                                                 <td style=" background: white; text-align: center;" class="button-td">
+                                                     <a href="https://www.tuition.io/request-a-demo/" style="background: #ffffff; border: 12px solid #ffffff; font-family: 'Montserrat', sans-serif; font-size: 10px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 50px; font-weight: bold;" class="button-a">
+                                                         <span style="color:#26a4d3;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;Request Demo&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                     </a>
+                                                 </td>
+                                               </tr>
+                                           </table>
+                                           </center>
+                                           <!-- Button : END -->
+
+                                       </td>
+                                   </tr>
+                                </table>
+
+                                </td>
+                              </tr>
+
+                              <tr>
+                                  <td height="20" style="font-size:20px; line-height:20px;">&nbsp;</td>
+                              </tr>
+
+                          </table>
+
+                      </div>
+
+                  </td>
+              </tr>
+
+              <tr>
+                  <td bgcolor="#ffffff">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                              <td style="padding: 40px 40px 20px 40px; text-align: left;">
+                                  <h1 style="margin: 0; font-family: 'Montserrat'; font-size: 15px; line-height: 26px; color: #333333; font-weight: bold;">Tuition.io Updates</h1>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 20px 40px; font-family: 'Montserrat'; font-size: 12px; line-height: 20px; color: #555555; text-align: left; ">
+                                  <p style="margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.</p>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 20px 40px; font-family: 'Montserrat'; font-size: 10px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                  <p style="margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.</p>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 20px 40px; font-family: 'Montserrat'; font-size: 10px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                  <p style="margin: 0;">Yours sincerely,<br>
+                                  Scott Thompson<br>
+                                  CEO
+                                  </p>
+                              </td>
+                          </tr>
+
+                          <tr>
+
+                          </tr>
+
+                      </table>
+                  </td>
+              </tr>
+
+              <tr>
+                  <td bgcolor="#F9F9F9">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                              <td style="padding: 40px 40px 20px 40px; text-align: center;">
+                                  <h1 style="margin: 0; font-family: 'Montserrat'; font-size: 15px; line-height: 26px; color: #333333; font-weight: bold;">Benefits News</h1>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 35px 40px; font-family: 'Montserrat'; font-size: 12px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                  <p style="margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                  consequat.</p>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top" style="padding: 0px 40px 0px 40px;">
+                              <!-- <img src="https://s5.postimg.cc/5w8xkaneb/i_Stock-504987926.jpg" width="400" height="" style="margin:0; padding:0; border:none; display:block;" border="0" class="fluid" alt=""> -->
+                            </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 20px 40px;">
+
+                                  <table width="600px" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style="border:1px solid #dddddd;">
+                                      <tr>
+                                          <td align="" style="padding: 20px 20px 0px 20px; font-family: 'Montserrat'; font-size: 15px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                              <h3 style="margin:0; font-size:15px;">
+                                                  Employer Benfits
+                                              </h3>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="" style="padding: 20px 20px 20px 20px; font-family: 'Montserrat'; font-size: 12px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                              <p style="margin:0;">
+                                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                  consequat.
+                                              </p>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td valign="top" align="left" style="text-align: left; padding: 0px 20px 20px 20px;">
+
+                                              <!-- Button : BEGIN -->
+                                              <center>
+                                              <table role="presentation" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: left;">
+                                                  <tr>
+                                                      <td style="border-radius: 50px; background: #26a4d3; text-align: center;" class="button-td">
+                                                          <a href="https://www.tuition.io/employers/how-it-works/" style="background: #27A4BD; border: 12px solid #27A4BD; font-family: 'Montserrat', sans-serif; font-size: 10px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 50px; font-weight: bold;" class="button-a">
+                                                              <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;Employer&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                          </a>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                              </center>
+                                              <!-- Button : END -->
+
+                                          </td>
+                                      </tr>
+                                  </table>
+
+                              </td>
+                          </tr>
+                          <tr>
+                            <td align="center" valign="top" style="padding: 0px 40px 0px 40px;">
+                              <!-- <img src="https://s5.postimg.cc/6yeipbebn/i_Stock-517047052.jpg" width="400" height="" style="margin:0; padding:0; border:none; display:block;" border="0" class="fluid" alt=""> -->
+                            </td>
+                          </tr>
+                          <tr>
+                              <td style="padding: 0px 40px 40px 40px;">
+
+                                  <table width="600px" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" style="border:1px solid #dddddd;">
+                                      <tr>
+                                          <td align="" style="padding: 20px 20px 0px 20px; font-family: 'Montserrat'; font-size: 15px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                              <h3 style="margin:0; font-size:15px;">
+                                                  Employee Benefits
+                                              </h3>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="" style="padding: 20px 20px 20px 20px; font-family: 'Montserrat'; font-size: 12px; line-height: 20px; color: #555555; text-align: left; font-weight:normal;">
+                                              <p style="margin:0;">
+                                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                  consequat.
+                                              </p>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td valign="top" align="left" style="text-align: left; padding: 0px 20px 20px 20px;">
+
+                                              <!-- Button : BEGIN -->
+                                              <center>
+                                              <table role="presentation" align="left" cellspacing="0" cellpadding="0" border="0" style="text-align: left;">
+                                                  <tr>
+                                                      <td style="border-radius: 50px; background: #26a4d3; text-align: center;" class="button-td">
+                                                          <a href="https://www.tuition.io/employees/how-we-can-help/" style="background: #26a4d3; border: 12px solid #26a4d3; font-family: 'Montserrat', sans-serif; font-size: 10px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 50px; font-weight: bold;" class="button-a">
+                                                              <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;Employee&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                          </a>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                              </center>
+                                              <!-- Button : END -->
+
+                                          </td>
+                                      </tr>
+                                  </table>
+
+                              </td>
+                          </tr>
+
+
+
+                      </table>
+                  </td>
+              </tr>
+
+              <tr>
+                  <td bgcolor="#5D219E">
+                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                              <td id="help"style="padding: 40px 40px 10px 40px; text-align: center;">
+                                  <h1 style="margin: 0; font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 24px; color: #ffffff; font-weight: bold;">Start helping your
+                                    team members today!</h1>
+                              </td>
+                          </tr>
+                                <br>
+
+
+                          <tr>
+                              <td valign="middle" align="center" style="text-align: center; padding: 0px 20px 40px 20px;">
+
+                                  <!-- Button : BEGIN -->
+                                  <table role="presentation" align="center" cellspacing="0" cellpadding="0" border="0" class="center-on-narrow">
+                                      <tr>
+                                          <td style=" background: white; text-align: center;" class="button-td">
+                                              <a href="https://www.tuition.io/request-a-demo/" style="background: #ffffff; border: 12px solid #ffffff; font-family: 'Montserrat', sans-serif; font-size: 10px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 50px; font-weight: bold;" class="button-a">
+                                                  <span style="color:#26a4d3;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;Request Demo&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                              </a>
+                                          </td>
+                                      </tr>
+                                  </table>
+                                  <!-- Button : END -->
+
+                              </td>
+                          </tr>
+
+                      </table>
+                  </td>
+              </tr>
+
+
+
+
+              <!-- FOOTER : BEGIN -->
+<tr>
+    <td bgcolor="#ffffff">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+                <td style="padding: 40px 40px 10px 40px; font-family: sans-serif; font-size: 10px; line-height: 18px; color: #666666; text-align: center; font-weight:normal;">
+                    <p style="margin: 0;">Terms of use - Privacy Policy</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding: 0px 40px 40px 40px; font-family: 'Montserrat'; font-size: 8px; line-height: 18px; color: #666666; text-align: center; font-weight:normal;">
+                    <p style="margin: 0;">Copyright &copy; 2017 <b>Tuition.io</b>, All Rights Reserved.</p>
+                </td>
+            </tr>
+
+        </table>
+    </td>
+</tr>
+
+          </table>
+
+      </div>
+
+  </center>
+
+</body>
+</html>
